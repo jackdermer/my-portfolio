@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>AB Testing</title>
+    <!-- <script src="support/jquery-3.5.1.min.js"></script>
+    <script src="support/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="support/bootstrap.min.css"> -->
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/ab_testing.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+  <body>
+      <div class="d-flex flex-wrap justify-content-between">
+          <a class="jd" href="../home.html">
+              <h3><b>Jack Dermer</b></h3>
+          </a>
+          <ul class="sticky-top nav justify-content-end">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">My Projects</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <p class="nav-title">UI / UX Design</p>
+                      <a class="dropdown-item center" href="responsive_project.html">Restaurant Redesign</a>
+                      <a class="dropdown-item center" href="dev_project.html">React Stocks</a>
+                      <a class="dropdown-item center" href="ab_testing.html">A / B Testing</a>
+                      <p class="nav-title">Lighting Design</p>
+                      <a class="dropdown-item center text-wrap" href="sonic.html">The Sonic Life of a Giant Tortoise</a>
+                      <a class="dropdown-item center" href="fusion.html">Fusion Dance Company</a>
+                      <a class="dropdown-item center" href="mezcla.html">Mezcla Dance Company</a>
+                      <p class="nav-title">Film (coming soon)</p>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item center text-wrap" href="../home.html">Home</a>
+                      <a class="dropdown-item center text-wrap" href="about_me.html">About Me</a>
+                  </div>
+              </li>
+          </ul>
+      </div>
+
+      <div class="main-section">
+        <h1 class="center"><mark>A/B Testing</mark></h1>
+
+        <p class="center">In this project, I applied A / B testing to determine which website design aided in user efficiency. Starting
+        with the design idea I wanted to test, I focused on the layout to see if a more hierarchical structure allowed
+        users to checkout faster. I created a website that randomly swapped between the two designs and recorded
+        user data from it. Lastly, I ran statistical tests to see if I could reject my null hypothesis.</p>
+
+        <h2 style="margin-top: 20px">Design A & Design B</h2>
+        <div style="margin-bottom: 5px" class="hor-line"></div>
+        <ul>
+            <li> Below are two designs for a website that sells cacti (A on left, B on right) </li>
+            <li> The two designs are exactly the same except for a few changed features:</li>
+            <ul>
+                <li>Design B arranges the text in a more hierarchical fashion. This places the price at the top which
+                makes it more prominent</li>
+                <li>Design B also changes the name of the site to something more generic. This is meant to not be
+                as distracting as the original title </li>
+            </ul>
+        </ul>
+        <div class="d-flex flex-wrap justify-content-around">
+            <img src="../img/ab_testing/A_pic.png" class="shadow my-image" alt="Responsive image">
+            <img src="../img/ab_testing/B_pic.png" class="shadow my-image" alt="Responsive image">
+        </div>
+
+        <h2 style="margin-top: 20px">Hypotheses</h2>
+        <div style="margin-bottom: 5px" class="hor-line"></div>
+        <ul>
+            <li> There are two metrics I will be using to judge which design is superior: time to completion and return rate.
+            Each metric will have a null and alternative hypothesis used for statistical testing</li>
+            <br>
+            <li><i>Time to Completion </i>: The time from when the user enters the site to when they complete their last action</li>
+            <ul>
+                <li> Null Hypothesis: There is no difference between design A and B in terms of their time to completion</li>
+                <li>Alternative Hypothesis: B will have a shorter time to completion. I believe this will be the
+                case because the prices are more highlighted and will therefore cause products to be be more efficiently chosen</li>
+            </ul>
+            <br>
+            <li><i>Return Rate </i>: After checking out, did the user return to the shopping page</li>
+            <ul>
+                <li> Null Hypothesis: There is no difference between design A and B in their return rates</li>
+                <li>Alternative Hypothesis: A will have a greater return rate. I believe this will be the case because
+                the layout for design A is less clear and may require users to return to the shopping page to fix
+                their order prior to checkout</li>
+            </ul>
+        </ul>
+
+        <h2 style="margin-top: 20px">Data Collection</h2>
+        <div style="margin-bottom: 5px" class="hor-line"></div>
+        <ul>
+            <li>To test my hypothesis, I collected user data. A total of 22 users interacted with the designs. They
+            were asked to select $150 worth of products and then checkout. It is important to note that this money was not
+            their own and they were not going to receive the products they ordered. All user interaction with the design was
+            tracked down to the millisecond and categorized by type of action (button press, checkout, reload page)
+        </ul>
+
+        <h2 style="margin-top: 20px">Infographic</h2>
+        <div style="margin-bottom: 5px" class="hor-line"></div>
+        <ul>
+            <li>Below are the results from running statistics tests on the data I collected
+        </ul>
+        <div class="d-flex flex-wrap justify-content-center">
+            <img style="width: 500px; max-height: 700px;" src="../img/ab_testing/AB_info.jpg" class="shadow img-fluid my-image" alt="Responsive image">
+        </div>
+
+        <h2 style="margin-top: 20px">Conclusions</h2>
+        <div style="margin-bottom: 5px" class="hor-line"></div>
+        <ul>
+            <li><b>Return Rate: </b> due to the p-value for the chi2 test being above 0.05, I was not able to draw
+            any conclusions from the data</li>
+            <li><b>Time to Completion: </b> the p-value for the t-test was below 0.05, so I was able to conclude that
+            B takes longer to complete than A. While I am able to reject the null hypothesis, the data goes against my
+            alternative hypothesis. I had hypothesized that B would take a shorter amount of time to complete, given its more
+                organized layout. I believe this hypothesis did not come to fruition because of the way in which the AB tests
+                were presented; users were shown many AB tests, all with the same A design.
+                Whenever a novel B design appears, I hypothesize that users took more
+            time to observe the new design, resulting in a longer time to completion.</li>
+            <br>
+            <li><b>Limitations Affecting Results</b></li>
+            <ul>
+                <li><i>Small Sample Size </i>: Given I was only able to test 22 users, it is unclear if this data can generalize
+                to larger demographics</li>
+                <li><i>Homogeneous Sample </i>: All of the users interviewed were college students in a UI/UX course. This likely
+                made my data biased</li>
+                <li><i>Relative AB Testing </i>: As discussed in my time to completion note, multiple AB tests were taken back to
+                back which may have affected how user behaved</li>
+                <li><i>Efficacy </i>: With the users not spending their own money or receiving any of the products, there is a lack
+                of real world application. The behavior of users may differ when there are actual outcomes related to their
+                actions</li>
+            </ul>
+            <br>
+            <li><b>Design Principles Affecting Results</b></li>
+            <ul>
+                <li>Whether the longer time to completion was positive or negative, the data shows that even the minor change of
+                    organizing text vertically compared to horizontally affects the users. This demonstrates the power
+                of text hierarchies in directing a user's actions </li>
+                <li>The return rate was not significantly different between the two designs, likely because the checkout pages
+                were the same. In order to prompt an action, I would have needed to apply some of the design principles; for
+                example, using colors or animations to incentivize users to return to the shopping page </li>
+            </ul>
+        </ul>
+    </div>
+
+      <footer style="margin-top: 2vw" class="page-footer font-small blue">
+          <div class="footer-copyright text-center py-3">Thanks for reading!
+              <a href="../html">See more projects</a>
+          </div>
+      </footer>
+  </body>
+</html>

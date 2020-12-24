@@ -1,0 +1,136 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    margin-top: 15px;
+    color: lightslategrey;
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+    h1 {
+        font-size: 80px;
+        font-weight: lighter;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: lighter;
+        margin-right: 200px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+
+    .card-image {
+        margin-left: 50px;
+        width: 25vw;
+    }
+
+    .main-section {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    #opening-img {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        font-weight: lighter;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: lighter;
+        margin-right: 200px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+
+    .card-image {
+        width: 200px;
+    }
+
+    .main-section {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+mark {
+    background-color: #b0c9f8;
+    color: white;
+}
+
+.section {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.img-div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+.section-h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.card-row {
+    padding-bottom: 80px;
+}
+
+.nav-title {
+    color: black;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.jd {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: lightslategrey;
+}
+
+.jd:hover {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: lightslategrey;
+    text-decoration: none;
+}

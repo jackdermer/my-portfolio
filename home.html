@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/home.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body>
+    <div class="d-flex flex-wrap justify-content-between">
+      <a class="jd" href="home.html">
+        <h3><b>Jack Dermer</b></h3>
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle center" id="navbarDropdownMenuLink" data-toggle="dropdown">My Projects</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <p class="nav-title">UI / UX Design</p>
+            <a class="dropdown-item center" href="html/responsive_project.html">Restaurant Redesign</a>
+            <a class="dropdown-item center" href="html/dev_project.html">React Stocks</a>
+            <a class="dropdown-item center" href="html/ab_testing.html">A / B Testing</a>
+            <p class="nav-title">Lighting Design</p>
+            <a class="dropdown-item center text-wrap" href="html/sonic.html">The Sonic Life of a Giant Tortoise</a>
+            <a class="dropdown-item center" href="html/fusion.html">Fusion Dance Company</a>
+            <a class="dropdown-item center" href="html/mezcla.html">Mezcla Dance Company</a>
+            <p class="nav-title">Film (coming soon)</p>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item center text-wrap" href="home.html">Home</a>
+            <a class="dropdown-item center text-wrap" href="html/about_me.html">About Me</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main-section">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-center">
+            <h1>I am a creative technologist!</h1>
+          </div>
+          <div class="col align-self-center">
+            <a href="html/about_me.html">
+              <img id="main-img" class="hvr-grow-shadow" src="img/home/linkedIn.jpg"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="UI">UI / UX Design</h3>
+    <hr>
+
+      <div class="d-flex flex-wrap justify-content-center">
+          <div>
+            <a href="html/responsive_project.html">
+              <img class="proj-img hvr-grow-shadow" src="img/home/redesign.png"/>
+            </a>
+            <p class="center">Restaurant Redesign</p>
+          </div>
+          <div>
+            <a href="html/dev_project.html">
+              <img class="proj-img hvr-grow-shadow" src="img/home/react.png"/>
+            </a>
+            <p class="center">React Stocks</p>
+          </div>
+          <div>
+            <a href="html/ab_testing.html">
+              <img class="proj-img hvr-grow-shadow" src="img/home/ab.jpg"/>
+            </a>
+            <p class="center">A/B Testing</p>
+          </div>
+      </div>
+
+    <h3 id="lighting">Lighting Design</h3>
+    <hr>
+
+    <div class="d-flex flex-wrap justify-content-center">
+      <div>
+        <a href="html/sonic.html">
+          <img class="proj-img hvr-grow-shadow" src="img/home/sonic.jpg"/>
+        </a>
+        <p class="center"><i>The Sonic Life of a Giant Tortoise</i></p>
+      </div>
+      <div>
+        <a href="html/coming_soon.html">
+          <img class="proj-img hvr-grow-shadow" src="img/home/fusion.jpeg"/>
+        </a>
+        <p class="center"><i>Fusion Dance Company</i></p>
+      </div>
+      <div>
+        <a href="html/coming_soon.html">
+          <img class="proj-img hvr-grow-shadow" src="img/home/mezcla.jpeg"/>
+        </a>
+        <p class="center"><i>Mezcla Dance Company</i></p>
+      </div>
+    </div>
+
+    <h3 id="film">Film</h3>
+    <hr>
+
+    <div class="d-flex flex-wrap justify-content-center">
+      <div>
+        <a href="html/coming_soon.html">
+          <img class="proj-img hvr-grow-shadow" src="img/home/blueroom.png"/>
+        </a>
+        <p class="center"><i>Boys in the Blue Room</i></p>
+      </div>
+      <div>
+        <a href="html/coming_soon.html">
+          <img class="proj-img hvr-grow-shadow" src="img/home/trumpet.jpg"/>
+        </a>
+        <p class="center"><i>The Trumpet Player</i></p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+</html>

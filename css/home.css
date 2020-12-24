@@ -1,0 +1,120 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    margin-top: 15px;
+    color: lightslategrey;
+    font-size: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.main-section {
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vw;
+}
+
+@media screen and (min-width: 601px) {
+    h1 {
+        font-size: 80px;
+        font-weight: lighter;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #main-img {
+        object-fit: cover;
+        border-radius: 300px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        font-weight: lighter;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #main-img {
+        object-fit: cover;
+        border-radius: 300px;
+        width: 200px;
+    }
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-right: 200px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.center {
+    text-align: center;
+}
+
+mark {
+    background-color: #b0c9f8;
+    color: white;
+}
+
+hr {
+    margin-bottom: 40px;
+}
+
+
+
+.proj-img {
+    border-radius: 50px;
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border-color: black;
+}
+
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.nav-title {
+    color: black;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.jd {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: lightslategrey;
+}
+
+.jd:hover {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: lightslategrey;
+    text-decoration: none;
+}

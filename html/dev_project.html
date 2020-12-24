@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>React Stocks</title>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/dev.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body id="home">
+
+    <div class="d-flex flex-wrap justify-content-between">
+      <a class="jd" href="../home.html">
+        <h3><b>Jack Dermer</b></h3>
+      </a>
+      <ul class="sticky-top nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">My Projects</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <p class="nav-title">UI / UX Design</p>
+            <a class="dropdown-item center" href="responsive_project.html">Restaurant Redesign</a>
+            <a class="dropdown-item center" href="dev_project.html">React Stocks</a>
+            <a class="dropdown-item center" href="ab_testing.html">A / B Testing</a>
+            <p class="nav-title">Lighting Design</p>
+            <a class="dropdown-item center text-wrap" href="sonic.html">The Sonic Life of a Giant Tortoise</a>
+            <a class="dropdown-item center" href="fusion.html">Fusion Dance Company</a>
+            <a class="dropdown-item center" href="mezcla.html">Mezcla Dance Company</a>
+            <p class="nav-title">Film (coming soon)</p>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item center text-wrap" href="../home.html">Home</a>
+            <a class="dropdown-item center text-wrap" href="about_me.html">About Me</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main-section">
+
+      <h1 class="center"><mark>React Stocks</mark></h1>
+      <p class="center">In this project, I designed a web application used for purchasing stocks. While this site does not link
+      to the stock market itself, it was a great way for me to hone my skills in <b>Javascript</b> and <b>React</b>. My primary focus
+      for this project was implementing a well structured back-end and a clean, user-friendly front-end.</p>
+
+      <div class="shadow p-3 mb-5 bg-white rounded">
+        <img id="card-image"   src="../img/dev/opener.png"/>
+      </div>
+
+      <h3 id="overview" class="section-h2"><mark>Overview</mark></h3>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 style="width: 25vw">What is the goal of application?</h2>
+          </div>
+          <div class="col">
+            <p>This application provides users with an intuitive approach to purchasing stocks. Through a clean interface,
+              this application guides user through filtering and sorting through the many possible stocks to buy as well
+              as adding a given stock to their cart. Lastly, the user is able to checkout and is alerted of how much
+              their selection of stocks costs.</p>
+          </div>
+          <div class="w-100">
+            <hr>
+          </div>
+          <div class="col">
+            <h2 style="width: 25vw">What is the value to the user?</h2>
+          </div>
+          <div class="col">
+            <p>The stock market can be an incredibly complex space to navigate. This application puts the user first
+              by providing a clean, organized arrangement of information. The user interactions are quick and easy
+              with an emphasis on effective learnability.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="usability" class="section-h2"><mark>Usability Principles</mark></h3>
+
+      <div class="container">
+        <div class="row card-row">
+          <div class="col align-self-center">
+            <h3>Card Design</h3>
+            <p>Given that there are so many different of stocks to invest in, it was important that the formatting was <b>consistent</b>
+              across all of them. In my card design, I utilized <b>bolding, opacity and size</b> to create a <b>tech hierarchy</b>. While
+              the site is fairly minimalist, lacking in color, the green "Purchase Stock" button incentivizes the user to click.</p>
+          </div>
+          <div class="col">
+            <div class="card-image shadow p-3 bg-white rounded">
+              <img src="../img/dev/single.png"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="row card-row">
+          <div class="col">
+            <h3>Filtering and Sorting</h3>
+            <p>With 12 individual stocks available on the application, it was clear that the user needed some way to
+              filter and sort the data. By highlighting the active selection, users can see what filters are currently
+            in use. The "Sort By" button is a dropdown as to separate it from the filters. </p>
+          </div>
+          <div class="col">
+            <div class="card-image shadow p-3 bg-white rounded">
+              <img src="../img/dev/filter.png"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="row card-row">
+          <div class="col">
+            <h3>Learnability</h3>
+            <p>To aid in learnability, I kept my color palette fairly minimalist, except when using green to highlight
+            important actions the user may want to take. This is applied to initially putting stocks in the cart,
+            going to the cart, and checkout. This consistency helps users learn the site quickly and be a more
+            efficient navigator. </p>
+          </div>
+          <div class="col">
+            <div class="card-image shadow p-3 bg-white rounded">
+              <img src="../img/dev/learn.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="git" class="section-h2"><mark>Deployment</mark></h3>
+      <p>Please find the link to my deployed site below.</p>
+      <a href="https://powerful-eyrie-29553.herokuapp.com" class="btn btn-secondary" role="button" target="_blank">Deployed Website</a>
+    </div>
+
+    <footer style="margin-top: 2vw" class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">Thanks for reading!
+        <a href="../home.html">See more projects</a>
+      </div>
+    </footer>
+  </body>
+
+</html>
