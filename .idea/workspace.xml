@@ -3,29 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80e5f924-649f-474a-b77a-fb271e78c66b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sonic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sonic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ab_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ab_testing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/coming_soon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/dev_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dev_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/fusion.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fusion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mezcla.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mezcla.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/responsive_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/responsive_project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sonic.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sonic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/blueroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/fusion.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/john.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/linkedIn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/mezcla.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/react.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/redesign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/sonic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/trumpet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home copy/will.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home/blueroom.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/home/blueroom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home/trumpet.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +40,8 @@
       <updated>1608848067029</updated>
       <workItem from="1608848068171" duration="1201000" />
       <workItem from="1609021445570" duration="11190000" />
+      <workItem from="1609638932448" duration="4827000" />
+      <workItem from="1609782928762" duration="11846000" />
     </task>
     <servers />
   </component>
