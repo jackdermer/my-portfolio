@@ -4,6 +4,54 @@
     <list default="true" id="80e5f924-649f-474a-b77a-fb271e78c66b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ab_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ab_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/cloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/coming_soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/connect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dev_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dev_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fusion.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fusion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/impulse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/impulse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/mezcla.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mezcla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/one_minute.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/one_minute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/responsive_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/responsive_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sonic.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sonic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/25.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/26.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/27.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/28.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/29.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/30.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/31.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/32.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/34.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/35.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/36.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/9.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +89,7 @@
       <workItem from="1608848068171" duration="1201000" />
       <workItem from="1609021445570" duration="11190000" />
       <workItem from="1609638932448" duration="4827000" />
-      <workItem from="1609782928762" duration="11846000" />
+      <workItem from="1609782928762" duration="18270000" />
     </task>
     <servers />
   </component>

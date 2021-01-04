@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Portrait Relight</title>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/sonic.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+
+  <body id="home">
+
+    <div class="d-flex flex-wrap justify-content-between">
+      <a class="jd" href="../home.html">
+        <h3><b>Jack Dermer</b></h3>
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle center" id="navbarDropdownMenuLink" data-toggle="dropdown">My Projects</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item center" href="../home.html#featured">Featured Projects</a>
+            <a class="dropdown-item center" href="../home.html#lighting">Lighting Design</a>
+            <a class="dropdown-item center" href="../home.html#UI">UI / UX Design</a>
+            <a class="dropdown-item center" href="../home.html#film">Film</a>
+            <a class="dropdown-item center" href="../home.html#other">Other Projects</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item center text-wrap" href="../home.html">Home</a>
+            <a class="dropdown-item center text-wrap" href="about_me.html">About Me</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="main-section">
+      <h1 class="center">Portrait Image Relighting</h1>
+      <p class="center">Brown University ~ Computer Vision ~ May 2020</p>
+      <p class="center">In this project I implemented a deep learning research paper with a team of friends. The paper
+      utilized convolutional neural networks to take the lighting from one portrait image and apply it to the other. The
+      primary challenge we faced was the size of the dataset. With full resolution images being used for training and testing,
+      we did not have the computational power to implement the research paper as written, so instead we modified the task.
+      We reduced the image sizes and optimized the network to produce similar results while being far less computationally
+      expensive. Below is our final paper that outlines would process and results. </p>
+
+      <div class="d-flex justify-content-center">
+        <iframe src="../img/relight/relight.pdf" frameborder="0" width="700" height="800">
+          This browser does not support PDFs
+        </iframe>
+      </div>
+
+
+
+    <footer style="margin-top: 2vw" class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">Thanks for reading!
+        <a href="../home.html">See more projects</a>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
