@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="80e5f924-649f-474a-b77a-fb271e78c66b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/ab_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ab_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/cloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/coming_soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/coming_soon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/connect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dev_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dev_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/fusion.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/fusion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/impulse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/impulse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/mezcla.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mezcla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/one_minute.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/one_minute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/relight.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/relight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/responsive_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/responsive_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sonic.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sonic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +57,8 @@
       <workItem from="1609021445570" duration="11190000" />
       <workItem from="1609638932448" duration="4827000" />
       <workItem from="1609782928762" duration="23249000" />
-      <workItem from="1609866385871" duration="483000" />
+      <workItem from="1609866385871" duration="2003000" />
+      <workItem from="1609878554464" duration="626000" />
     </task>
     <servers />
   </component>
